@@ -6,17 +6,16 @@ package Demo
 object Demo {
 
   def main(args: Array[String]): Unit = {
-    var x = 0;
-    
-    while (x < 10) {
-      println("x = "+ x);
-      x+=1;
+
+    for (i<- 1 to 5){
+      println("i using to" + i)
     }
-    var y = 0;
-    do{
-      println("x = "+ y);
-      y+=1;
-    }while(y < 10)
+    for (i<- 1 until 5){
+      println("i using to" + i)
+    }
+    for (i<- 1 to 5; j<- 1 to 3){
+      println("i using to" + i + "value of j is " + j)
+    }
   }
 
 }
