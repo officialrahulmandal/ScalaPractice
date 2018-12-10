@@ -6,11 +6,14 @@ package Demo
 object Demo {
 
   def main(args: Array[String]): Unit = {
-    val name = "mark"
-    val age = 18
-    println(name + " is "+ age + " Years old")
-    println(s"$name is $age years old")
-    println(f"$name%s is $age%d years old")
+    val x=20;
+
+    if(x == 20){
+      println("x is equals to 20")
+    }
+    else {
+      println("x is not equals to 20")
+    }
   }
 
 }
