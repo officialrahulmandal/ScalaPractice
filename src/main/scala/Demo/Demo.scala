@@ -12,6 +12,11 @@ object Demo {
       println("x = "+ x);
       x+=1;
     }
+    var y = 0;
+    do{
+      println("x = "+ y);
+      y+=1;
+    }while(y < 10)
   }
 
 }
