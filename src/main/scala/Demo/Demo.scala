@@ -6,13 +6,11 @@ package Demo
 object Demo {
 
   def main(args: Array[String]): Unit = {
-    val x=20;
-
-    if(x == 20){
-      println("x is equals to 20")
-    }
-    else {
-      println("x is not equals to 20")
+    var x = 0;
+    
+    while (x < 10) {
+      println("x = "+ x);
+      x+=1;
     }
   }
 
