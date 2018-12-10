@@ -6,25 +6,16 @@ package Demo
 object Demo {
 
   def main(args: Array[String]): Unit = {
+    val age = 18;
 
-    for (i<- 1 to 5){
-      println("i using to" + i)
-    }
-    for (i<- 1 until 5){
-      println("i using to" + i)
-    }
-    for (i<- 1 to 5; j<- 1 to 3){
-      println("i using to" + i + "value of j is " + j)
-    }
-    val lst = List(1,2,3,4,5,6,7);
-    for (i <- lst; if i<6){
-      println("elements of list is :- "+i)
-    }
-    val result = for {i <- lst; if i<6} yield {
-      i*i
+    age match {
+      case 20 => println(age);
+      case 18 => println(age);
+      case 30 => println(age);
+      case 40 => println(age);
+      case 50 => println(age);
     }
 
-    println("result = "+ result)
   }
 
 }
