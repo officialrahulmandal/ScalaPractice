@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d3d47-7350-4a5e-9ee5-d2c36eb359c8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Demo/Demo$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Demo/Demo.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Demo/Demo.scala" afterPath="$PROJECT_DIR$/src/main/scala/Demo/Demo.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +31,8 @@
       <file leaf-file-name="Demo.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Demo/Demo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -690,12 +692,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544438736880</updated>
       <workItem from="1544438740845" duration="4691000" />
-      <workItem from="1544773631703" duration="2100000" />
+      <workItem from="1544773631703" duration="3612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6791000" />
+    <option name="totallyTimeSpent" value="8303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -758,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Demo/Demo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
