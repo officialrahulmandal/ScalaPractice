@@ -5,19 +5,12 @@ package Demo
   */
 object Demo {
 
+  val add = (x: Int )=> x+10;
+
   def main(args: Array[String]): Unit = {
-    object Math{
-      def sub(x: Int, y: Int): Int = {
-        return x-y;
-      }
-    }
-    def add(x: Int, y: Int): Int = {
-      return x+y;
+    println(add(20))
     }
 
-    println(add(2,4))
-    println(Math.sub(3,2))
 
-  }
 
 }
