@@ -7,8 +7,14 @@ object Demo {
 
   val add = (x: Int )=> x+10;
 
+  def add2(x: Int ) = (y: Int) => x+y;
+
+
   def main(args: Array[String]): Unit = {
-    println(add(20))
+    println(add(20));
+    println(add2(3)(4));
+    val sum40 = add2(40);
+    println(sum40(100));
     }
 
 
