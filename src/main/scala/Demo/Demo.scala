@@ -4,22 +4,23 @@ package Demo
   * Created by algoscale on 10/12/18.
   */
 object Demo {
+  val num1 = 75;
+  val num2 = 100.25;
 
-  val add = (x: Int )=> x+10;
+  val str1 : String = "Hello World";
+  val str2 : String = "Max";
 
-  def add2(x: Int ) = (y: Int) => x+y;
-
-  def add3 (x: Int ) (y: Int) = x + y;
 
 
   def main(args: Array[String]): Unit = {
-    println(add(20));
-    println(add2(3)(4));
-    val sum40 = add2(40);
-    println(sum40(100));
-    println(add3(100)(300));
-    val sum50 = add3(50)_;
-    println(sum50(400));
+    println(str1.length);
+    println(str1.concat(str2));
+    println(str1 + str2);
+
+    val result = printf("(%d -- %f -- %s)",num1,num2,str1);
+    println(result);
+    println("(%d -- %f -- %s)".format(num1,num2,str1));
+    printf("(%d -- %f -- %s)",num1,num2,str1);
     }
 
 
